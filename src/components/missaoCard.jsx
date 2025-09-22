@@ -18,7 +18,7 @@ export function MissaoCard({ missao, onCardClick }) {
           : 'border-transparent hover:border-yellow-400 cursor-pointer'}`
       }
     >
-      <h3 id={tituloId} className={`text-xl font-bold ${concluida ? 'text-green-400' : 'text-yellow-300'}`} >
+      <h3 id={tituloId} className={`text-xl font-bold text-center ${concluida ? 'text-green-400' : 'text-yellow-300'}`} >
         {`Missão ${missao.id}: ${missao.titulo}`}
       </h3>
 
