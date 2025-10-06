@@ -2,7 +2,6 @@ import missoes from "../assets/missoes.png"
 import inventario from "../assets/inventario.png"
 import geoloc from "../assets/geoloc.png"
 import camera from "../assets/camera.png"
-// 1. Importe o NavLink em vez do Link
 import { NavLink } from "react-router-dom";
 
 export function NavPages() {
@@ -20,7 +19,7 @@ export function NavPages() {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink o="/inventario"
+                    <NavLink to="/inventario"
                         className="flex flex-col items-center justify-center hover:scale-105 transition-all p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                     >
                         <img src={inventario} alt="icone de inventario" className="h-auto w-20" />
