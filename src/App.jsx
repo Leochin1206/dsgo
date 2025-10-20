@@ -6,6 +6,7 @@ import { GeoLocalizacao } from './pages/geolocalização';
 import { Home } from './pages/home';
 import { Inventario } from './pages/inventario';
 import { Missoes } from './pages/missoes';
+import { Cadastro } from './pages/cadastro';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/inventario" element={<Inventario />} />
         <Route path="/missoes" element={<Missoes />} />
+        <Route path="/cadastro" element={<Cadastro />} />
       </Routes>
     </BrowserRouter>
   )
